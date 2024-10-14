@@ -1,11 +1,11 @@
 {
 	"expo": {
-		"name": "thirdweb playground",
-		"slug": "thirdweb-playground",
+		"name": "Bostest",
+		"slug": "bostest",
 		"version": "1.0.0",
 		"orientation": "portrait",
 		"icon": "./assets/images/icon.png",
-		"scheme": "com.thirdweb.demo",
+		"scheme": "com.abstractminds.bostest",
 		"userInterfaceStyle": "automatic",
 		"splash": {
 			"image": "./assets/images/splash.png",
@@ -14,10 +14,10 @@
 		},
 		"ios": {
 			"supportsTablet": true,
-			"bundleIdentifier": "com.thirdweb.demo",
+			"bundleIdentifier": "com.abstractminds.bostest",
 			"associatedDomains": [
-				"webcredentials:thirdweb.com",
-				"applinks:thirdweb.com"
+				"webcredentials:bospay.co",
+				"applinks:bospay.com"
 			]
 		},
 		"android": {
@@ -25,14 +25,14 @@
 				"foregroundImage": "./assets/images/adaptive-icon.png",
 				"backgroundColor": "#ffffff"
 			},
-			"package": "com.thirdweb.demo",
+			"package": "com.abstractminds.bostest",
 			"intentFilters": [
 				{
 					"autoVerify": true,
 					"action": "VIEW",
 					"data": {
 						"scheme": "https",
-						"host": "thirdweb.com"
+						"host": "bospay.co"
 					},
 					"category": ["BROWSABLE", "DEFAULT"]
 				}
@@ -72,9 +72,9 @@
 				"origin": false
 			},
 			"eas": {
-				"projectId": "d1d7acaf-b44a-4425-af35-620596448499"
+				"projectId": "a2b7ebf1-375c-4a34-aa27-2809dd04ed01"
 			}
 		},
-		"owner": "thirdweb"
+		"owner": "abstractminds"
 	}
 }
